@@ -1,0 +1,234 @@
+body{
+    background: #ddd3cc url(cropheader.jpg) top left no-repeat;
+    background color: #ddd3cc; 
+    background-image: url(cropheader.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background background-attachment: fixed;
+    position: relative; 
+    width: 100%;
+    font: "Verdana";
+    font-size: 20px;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+}
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 50%;
+    padding-top: 20px;
+    z-index:1;
+    position: fixed;
+    top:0;
+    width:40%;
+    height:37px;
+    list-style-type:none;
+    
+}
+.main-nav, .nav{
+  display: block;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8); 
+}
+.main-nav a:hover{
+    color:#dbb041;
+}
+.logo{
+    display: block;
+    min-height:100;
+    max-height: 200;
+    
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover{
+    color:#e8c83f;
+}
+/*home grid and project grid setup*/
+#gridrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 500px 4px;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+#homegrid {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+#homegrid #grid {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  #homegrid {
+    flex: 50%;
+    max-width: 50%;
+      align-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  #homegrid {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+h1{
+   text-align: center; 
+    margin-top: 490px;
+}
+/*about*/
+#about1{
+   text-indent: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+}
+#about2{
+    border-bottom: 4px solid black;
+     text-indent: 30px;
+    margin-left:10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+}
+#download{
+    min-height: 50px;
+    display: block;
+    max-height: 60px;
+    vertical-align: middle;
+    float:left;
+    padding-top: 30px;
+    margin-left: 40%;
+}
+#resume{
+    display:inline-block;
+    padding-top: 45px;
+    margin-left: 30px;
+    color: black;
+}
+#res{
+    padding: 20px;
+    align-content: center;
+    border: 2px solid black;
+    margin-left: 27%;
+    max-height: 1000px;
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+/*contact*/
+#contactcol {
+  float:"left";
+  width: 15%;
+  padding: 1px;
+    display: block;
+    vertical-align: middle;
+}
+#in, #phone, #email{
+    max-height: 100px;
+    max-width: 100px;
+    padding-top: 30px;
+    margin-left:210%;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/*contact*/
+#form {
+  border-radius: 5px;
+  background-color: rgba(219, 176, 65, 0.64);
+  padding: 20px;
+  margin-top: 90px;
+width: 40%;
+    margin-left: 29%;
+    margin-bottom: 30px;
+}
+#projectrow{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 50px 4px;
+    justify-content: center;
+}
+#projectgrid{
+    flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+#projectgrid #grid {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  #projectgrid {
+    flex: 50%;
+    max-width: 50%;
+      align-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+#projectgrid {
+    flex: 100%;
+    max-width: 100%;
+    }}
+footer{
+    clear: both;
+vertical-align: center;
+        background-color: #dbb041;
+        position:relative;
+text-align: center;
+        bottom: 0px;
+        width: 1500px;
+}
+#contactrow{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0px 4px;
+    padding-bottom: 20px;
+    margin-left: 27%;
+    width: 60%;
+    vertical-align: middle;
+}
+/*hover- home and projects*/
+#hgrid{
+    margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+#hgrid:hover{
+    opacity: 0.5;
+}
