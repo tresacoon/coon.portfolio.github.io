@@ -4,7 +4,7 @@ body{
     background-image: url(cropheader.jpg);
     background-position: top left;
     background-repeat: no-repeat;
-    background background-attachment: fixed;
+    background background-attachment:local;
     position: relative; 
     width: 100%;
     font: "Verdana";
@@ -92,7 +92,7 @@ body{
 h1{
    text-align: center; 
     margin-top: 490px;
-    position: relative;
+
 }
 /*about*/
 #about1{
