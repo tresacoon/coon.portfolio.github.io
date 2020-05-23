@@ -47,7 +47,7 @@ body{
     display: block;
     min-height:100;
     max-height: 200;
-    position: static;
+    position: relative;
     
 }
 .dropdown-content{
